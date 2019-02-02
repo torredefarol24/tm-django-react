@@ -1,0 +1,7 @@
+const LEAD_TYPES = {
+	GET_LEADS : "GET_LEADS",
+	DELETE_LEAD : "DELETE_LEAD",
+	ADD_LEAD : "ADD_LEAD"
+}
+
+export default LEAD_TYPES
