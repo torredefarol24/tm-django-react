@@ -18,7 +18,6 @@ class Form extends React.Component {
 
 	handleFormSubmit(event){
 		event.preventDefault()
-		console.log(this.state)
 		this.props.addLead(this.state)
 	}
 

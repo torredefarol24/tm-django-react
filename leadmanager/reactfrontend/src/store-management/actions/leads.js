@@ -46,7 +46,17 @@ const addLead = (lead) => dispatch => {
 		dispatch(action)
 	})
 	.catch(err => {
-		console.error(err)
+		console.error(err.response.data)
+		var errorPayload = {
+			message : err.response.data,
+			status : err.response.status
+		}
+
+		var action = {
+			type : LEAD_TYPES.GET_ERRORS,
+			payload : errorPayload
+		}
+		dispatch(action)
 	})
 }
 
