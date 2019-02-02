@@ -6,8 +6,8 @@
   "author": "Toufiq <burningraven06@gmail.com> (https://twitter.com/burningraven06)",
   "license": "MIT",
   "scripts" : {
-    "dev" : "webpack --mode development ./leadmanager/reactfrontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
-    "build" : "webpack --mode production ./leadmanager/reactfrontend/src/index.js --output ./leadmanager/reactfrontend/static/frontend/main.js"
+    "webpack-dev" : "webpack --mode development --watch ./leadmanager/reactfrontend/src/index.js --output ./leadmanager/reactfrontend/static/frontend/main.js",
+    "webpack-build" : "webpack --mode production ./leadmanager/reactfrontend/src/index.js --output ./leadmanager/reactfrontend/static/frontend/main.js"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
