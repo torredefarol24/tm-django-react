@@ -3,7 +3,7 @@
 # Git ignore for Node / React
 # =====================================================
 node_modules
-
+yarn.lock
 
 
 
