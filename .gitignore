@@ -1,4 +1,8 @@
 .vscode
+Pipfile.lock
+leadmanager/leadmanager/db_config.py
+
+
 # =====================================================
 # Git ignore for Node / React
 # =====================================================
